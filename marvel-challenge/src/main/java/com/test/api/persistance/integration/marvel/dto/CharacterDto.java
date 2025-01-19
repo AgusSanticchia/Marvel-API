@@ -1,4 +1,7 @@
-package com.test.api.dto;
+package com.test.api.persistance.integration.marvel.dto;
 
-public class CharacterDto {
+public record CharacterDto(Long id, String name, String description, String modified, String resourceURI) {
+
+    public static record CharacterInfoDto(String imagePath, String description) { }
+
 }
