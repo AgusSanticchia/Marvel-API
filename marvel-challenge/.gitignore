@@ -1,4 +1,2 @@
 ../.idea
-./application.properties
-./application-dev.properties
-./application-prod.properties
+*.properties
