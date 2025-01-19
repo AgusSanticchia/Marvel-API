@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b2159aed-8879-41b5-bd3b-c14ae7088280" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/CharacterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/CharacterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/ComicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/ComicRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/resources/application-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
