@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2159aed-8879-41b5-bd3b-c14ae7088280" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/dto/ComicDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/dto/ThumbnailDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/ComicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/controller/ComicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/marvel-challenge.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/dto/CharacterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/dto/CharacterDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/controller/CharacterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/controller/CharacterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/CharacterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/ComicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/impl/CharacterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/impl/ComicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
