@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2159aed-8879-41b5-bd3b-c14ae7088280" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/HttpClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/impl/RestTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/CharacterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/CharacterRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/ComicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/repository/ComicRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel-challenge/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel-challenge/target/classes/com/test/api/services/impl/CharacterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/target/classes/com/test/api/services/impl/CharacterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel-challenge/target/classes/com/test/api/services/impl/ComicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/target/classes/com/test/api/services/impl/ComicServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Marvel_API.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.test.api.services" />
@@ -67,6 +77,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Marvel_API" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <envs>
         <env name="DB_PASSWORD" value="21052005" />
         <env name="DB_URL" value="jdbc:mysql://localhost:3306/marvel_app" />
