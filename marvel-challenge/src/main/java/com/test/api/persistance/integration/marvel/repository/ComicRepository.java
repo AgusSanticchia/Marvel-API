@@ -1,10 +1,20 @@
 package com.test.api.persistance.integration.marvel.repository;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.test.api.dto.MyPageable;
+import com.test.api.persistance.integration.marvel.MarvelAPIConfig;
 import com.test.api.persistance.integration.marvel.dto.ComicDto;
+import com.test.api.persistance.integration.marvel.mapper.ComicMapper;
+import com.test.api.services.HttpClientService;
+
+import jakarta.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 @Repository
 public class ComicRepository {

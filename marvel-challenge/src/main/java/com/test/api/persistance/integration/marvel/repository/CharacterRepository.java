@@ -4,12 +4,19 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.test.api.dto.MyPageable;
 import com.test.api.persistance.integration.marvel.MarvelAPIConfig;
 import com.test.api.persistance.integration.marvel.dto.CharacterDto;
+import com.test.api.persistance.integration.marvel.mapper.CharacterMapper;
+import com.test.api.services.HttpClientService;
+
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 @Repository
 public class CharacterRepository {
@@ -24,6 +31,7 @@ public class CharacterRepository {
     private String basePath;
     private String characterPath;
 
+    
     @PostConstruct
     private void setPath(){
         characterPath = basePath.concat("/").concat("characters");
@@ -31,7 +39,9 @@ public class CharacterRepository {
 
     public List<CharacterDto> findAll(MyPageable pageable, String name, int[] comics, int[] series) {
         Map<String, String> marvelQueryParams = getQueryParamsForFindAll(pageable, name, comics, series);
+
         JsonNode response = httpClientService.doGet(characterPath, marvelQueryParams, JsonNode.class);
+
         return CharacterMapper.toDtoList(response);
     }
 

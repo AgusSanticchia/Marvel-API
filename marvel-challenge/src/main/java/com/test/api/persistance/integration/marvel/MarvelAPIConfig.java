@@ -1,6 +1,5 @@
 package com.test.api.persistance.integration.marvel;
 
-import com.test.api.utils.MD5Encoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
