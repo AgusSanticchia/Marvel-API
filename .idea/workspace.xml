@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc943791-b501-4e63-b8c5-eee6f908b2a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/entity/GrantedPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/entity/UserInteractionLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/repository/UserInteractionLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/repository/UserRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AgusSanticchia&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AgusSanticchia/Marvel-API.git&quot;,
+    &quot;accountId&quot;: &quot;95e8dd22-4fff-4866-99d4-a0aa031aa9b5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2s9DwDKPgvgrnX70xl0u8rZXb2j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc943791-b501-4e63-b8c5-eee6f908b2a7" name="Changes" comment="" />
+      <created>1737859135979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737859135979</updated>
+    </task>
+    <servers />
+  </component>
+</project>
