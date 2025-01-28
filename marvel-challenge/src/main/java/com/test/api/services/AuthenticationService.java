@@ -30,6 +30,9 @@ public class AuthenticationService {
     @Autowired
     private AuthenticationManager authenticationManager;
 
+    @Autowired
+    private JwtService jwtService;
+
     public LoginResponse authenticate(LoginRequest loginRequest) {
         UserDetails user = userDetailsService.loadUserByUsername(loginRequest.username());
 
