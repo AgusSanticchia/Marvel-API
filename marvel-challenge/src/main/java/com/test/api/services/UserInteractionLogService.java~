@@ -1,0 +1,9 @@
+package com.test.api.services;
+
+public interface UserInteractionLogService {
+
+    Page<GetUserInteractionLogDto> findAll(Pageable pageable);
+
+    Page<GetUserInteractionLogDto> findByUsername(Pageable pageable, String username);
+
+}

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fecd3d6-865f-4105-8be2-f75e243b5f28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/exception/ApiErrorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/dto/GetUserInteractionLogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/UserInteractionLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/impl/UserInteractionLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/controller/UserInteractionLogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/MarvelAPIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/persistance/integration/marvel/MarvelAPIConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/resources/application-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
