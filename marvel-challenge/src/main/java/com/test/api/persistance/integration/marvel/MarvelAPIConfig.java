@@ -19,16 +19,17 @@ public class MarvelAPIConfig {
 
     private long timestamp = new Date(System.currentTimeMillis()).getTime();
 
-    @Value("${integration.marvel.public.key}")
+    @Value("${integration.marvel.public-key}")
     private String publicKey;
 
-    @Value("${integration.marvel.private.key}")
+    @Value("${integration.marvel.private-key}")
     private String privateKey;
 
-    public String getHash() {
+    private String getHash() {
         String hashDecoded = Long.toString(timestamp).concat(privateKey).concat(publicKey);
         return md5Encoder.encode(hashDecoded);
     }
+
 
     public Map<String, String> getAuthenticationQueryParams() {
         Map<String, String> securityQueryParams = new HashMap<>();
