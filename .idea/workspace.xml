@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ecefc81-3783-4041-925d-5162bbf0dbc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/interceptor/InterceptorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/interceptor/UserInteractionInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/marvel-challenge.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/services/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/security/validator/UserInteractionLogValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/controller/UserInteractionLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/controller/UserInteractionLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/interceptor/InterceptorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/marvel-challenge/src/main/java/com/test/api/web/interceptor/InterceptorsConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -10,7 +10,7 @@ public class InterceptorsConfig implements WebMvcConfigurer {
 
     @Autowired
     private UserInteractionInterceptor userInteractionInterceptor;
-    
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(userInteractionInterceptor);
